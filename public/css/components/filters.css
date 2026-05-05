@@ -1,7 +1,7 @@
 #filters{
     display: flex;
     padding-top: 1rem;
-    justify-content: center;
+    /* justify-content: center; */
     flex-wrap: nowrap;           /* Prevent items from wrapping to the next line */
   overflow-x: auto;            /* Enable horizontal scrolling */
   overflow-y: hidden;          /* Disable vertical scrolling for this box */
