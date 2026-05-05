@@ -83,6 +83,12 @@ app.use((req,res,next)=>{
 });
 
 // Default Route
+app.use((req, res, next) => {
+    console.log("--- NEW REQUEST ---");
+    console.log("Path:", req.path);
+    console.log("Params:", req.params);
+    next();
+});
 app.get('/', (req, res) => {
       res.redirect('/listings');
     });
