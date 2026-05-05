@@ -1,11 +1,11 @@
 .navbar{
-    min-height: 3rem;
+    min-height: 4rem;
 }
 
 @media (max-width: 768px) {
   .navbar{
-    /* height: 5rem; */
-    min-height: 5rem !important;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
 }
 }
 
