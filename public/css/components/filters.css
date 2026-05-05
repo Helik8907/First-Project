@@ -1,7 +1,12 @@
 #filters{
     display: flex;
     padding-top: 1rem;
-    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;           /* Prevent items from wrapping to the next line */
+  overflow-x: auto;            /* Enable horizontal scrolling */
+  overflow-y: hidden;          /* Disable vertical scrolling for this box */
+  -webkit-overflow-scrolling: touch; /* Makes scrolling "smooth" on iOS */
+  gap: 15px;
     margin-top: 0;
     /* margin-bottom: 3rem; */
 }
