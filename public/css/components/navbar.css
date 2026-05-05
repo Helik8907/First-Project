@@ -5,7 +5,7 @@
 @media (max-width: 768px) {
   .navbar{
     /* height: 5rem; */
-    min-height: 6rem !important;
+    min-height: 5rem !important;
 }
 }
 
