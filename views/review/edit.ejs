@@ -1,0 +1,23 @@
+<% layout("layouts/boilerplate.ejs") %>
+    <title>Wanderlust</title>
+
+  <body>
+    <h3 id="head">Edit your Review</h3>
+    
+    <form method="POST" action="/listings/<%=id%>/review/<%= review._id %>?_method=PUT" class="needs-validation mb-3" novalidate>
+    <div class="mb-3">
+      <label for="rating" class="form-label">Rating:</label>
+      <input name="review[rating]" type="range" class="form-range" min="1" max="5" id="rating" value="<%= review.rating %>">
+    </div>
+    <div class="mb-3">
+      <label for="comment" class="form-label">Comment</label>
+      <textarea name="review[comment]" value="" class="form-control" id="comment"
+        required><%= review.comment %></textarea>
+      <div class="invalid-feedback">
+        Please provide a valid Comment.
+      </div>
+
+    </div>
+    <button class="btn btn-dark">Edit Review</button>
+  </form>
+  </body>

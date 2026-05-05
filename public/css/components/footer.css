@@ -1,0 +1,45 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    /* background-color: whitesmoke; */
+    /* position: absolute; */
+    /* bottom: 0; */
+    width: 100vw;
+}
+
+
+
+hr{
+    width: 90%;
+    border: solid 1px;
+    /* position: relative; */
+}
+
+.nav{
+    width: 10rem;
+    justify-content: space-around;
+}
+
+.nav-item i {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    /* color: rgba(255, 0, 0, 0.75); */
+}
+
+.nav-item i:hover {
+    /* color: rgb(255, 1, 1); */
+    transform: scale(1.1);
+}
+
+.nav-item a{
+    /* color: rgb(255, 0, 0); */
+    /* font-size: 1.2rem; */
+    transition: all 0.25s ease-in-out;
+}
+.nav-item a:hover{
+    /* color: rgb(255, 0,0); */
+    text-decoration: underline;
+}

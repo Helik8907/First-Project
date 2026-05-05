@@ -1,0 +1,36 @@
+<% layout("layouts/boilerplate.ejs") %>
+
+<div id="filters">
+  <div class="filter"><i class="fa-solid fa-fire"></i><p>Trending</p></div>
+  <div class="filter"><i class="fa-solid fa-bed"></i><p>Rooms</p></div>
+  <div class="filter"><i class="fa-solid fa-mountain"></i><p>Mountains</p></div>
+  <div class="filter"><i class="fa-solid fa-snowflake"></i><p>Snow</p></div>
+  <div class="filter"><i class="fa-solid fa-umbrella-beach"></i><p>Beach</p></div>
+  <div class="filter"><i class="fa-solid fa-building"></i><p>Apartment</p></div>
+  <div class="filter"><i class="fa-solid fa-tractor"></i><p>Farm House</p></div>
+  <div class="filter"><i class="fa-solid fa-tree-city"></i><p>Trx ee House</p></div>
+  <div class="filter"><i class="fa-solid fa-campground"></i><p>Campfire</p></div>
+  <div class="filter"><i class="fa-solid fa-tree"></i><p>Forest</p></div>
+
+
+</div>
+    <!-- <h3>All Listings</h3> -->
+
+    <div class="card-container">
+      <% for(let listing of allListings) { %>
+        <a href="/listings/<%= listing._id %>">
+        <div class="card listing-card">
+          <img src="<%= listing.image %>" class="card-img-top" alt="listing_image">
+          <div class="card-body">
+            <h5 class="card-title">
+              
+              <%= listing.title %>
+            </h5>
+            <p class="card-text"><%= listing.description %></p>
+          </div>
+        </div>
+        </a>
+        <% } %>
+    </div>
+
+    <script type="module" src="/JS/component/card.js"></script>

@@ -1,0 +1,14 @@
+.show.card{
+    width: 100% ;
+    height: fit-content;
+    max-height: 31rem;
+    margin-bottom: 3rem;
+    transition: all 0.3s ease;
+}
+
+.show.card-img {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    max-height: 31rem;
+    object-fit:cover;
+}

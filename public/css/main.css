@@ -1,0 +1,35 @@
+@import url("./base/variables.css");
+@import url("./base/utilities.css");
+
+@import url("./components/navbar.css");
+@import url("./components/footer.css");
+@import url("./components/cards.css");
+@import url("./components/filters.css");
+
+@import url("./components/form.css");
+@import url("./components/show.css");
+@import url("./components/review.css");
+@import url("./components/rating.css");
+
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+    margin: 0;
+    padding: 0;
+    /* color: red; */
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.container{
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,35 @@
+.navbar{
+    /* height: 5rem; */
+    min-height: 3rem;
+}
+
+.nav-icon{
+    font-size: 1.5rem;
+    color: #ff0000;
+}
+
+
+.nav-link{
+    font-size: 1rem;
+}
+
+.btn-search{
+    background-color: #ff0000;
+    color: white;
+    border-radius: 50px;
+    line-height: 1rem;
+    padding: 0 1.5rem;
+}
+
+.btn-search:hover{
+    
+    background-color: #ff0000;
+    color: white;
+    border-radius: 50px;
+}
+
+.search-inp{
+    border-radius: 50px;
+    font-size: .8rem;
+    padding: 0.5rem 3rem .5rem 1.75rem; 
+}
