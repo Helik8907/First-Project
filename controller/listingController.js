@@ -18,6 +18,7 @@ module.exports.createNewListing = async (req, res) => {
 };
 
 module.exports.showListing = async (req, res, next) => {
+  console.log(req.params);
   let { id } = req.params;
   console.log("Searching for ID:", id);
   const listing = await Listing.findById(id)
