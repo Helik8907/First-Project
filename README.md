@@ -2,6 +2,10 @@
 
 A full-stack web application for listing and reviewing vacation properties. Users can browse properties, create listings, leave reviews, and manage their accounts.
 
+Deployed on Render
+
+URL:https://first-project-m8oc.onrender.com
+
 ## Features
 
 - **User Authentication**: Secure user registration and login with Passport.js
@@ -115,10 +119,9 @@ wanderlust/
 │   ├── midleware.js            # Custom middleware
 │   ├── schema.js               # Joi validation schemas
 │   └── wrapAsync.js            # Async error wrapper
-├── init/                       # Database initialization
-│   ├── index.js                # Seed script entry
-│   └── data.js                 # Sample data
-└── uploads/                    # User-uploaded files
+└── init/                       # Database initialization
+    ├── index.js                # Seed script entry
+    └── data.js                 # Sample data
 ```
 
 ## Database Schema
